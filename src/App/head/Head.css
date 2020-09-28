@@ -1,0 +1,62 @@
+.Head{ 
+    height: 60px;
+    padding: 5px;
+    border: 35px solid transparent;
+    border-image: url(../imgstyle/Images/orb-borders.png) 35 round;
+    
+}
+.Head>div{
+    display: inline;
+}
+.TextHead{
+    float: right;
+    text-align: right;
+    font-size: 60px;
+    color: yellow;
+}
+.Exit{
+    font-family: WarcraftFont;
+    width: 237px;
+    background-image: url(../imgstyle/Images/red-button.png);
+    height: 60px;
+    background-size: cover;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 40px;
+}
+.disNone{
+    display: none;
+}
+.log-in{
+    
+    font-family: WarcraftFont;
+    width: 237px;
+    background-image: url(../imgstyle/Images/red-button.png);
+    height: 60px;
+    background-size: cover;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 40px;
+}
+.register{
+    font-family: WarcraftFont;
+    width: 237px;
+    background-image: url(../imgstyle/Images/red-button.png);
+    height: 60px;
+    background-size: cover;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 40px;
+}
+.log-in:hover{
+    background-image: url(../imgstyle/Images/green-button.png);
+}
+.register:hover{
+    background-image: url(../imgstyle/Images/green-button.png);
+}
+.Exit:hover{
+    background-image: url(../imgstyle/Images/green-button.png);
+}

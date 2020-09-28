@@ -1,0 +1,9 @@
+.Post{
+    width: 100%;
+    border-bottom:1px solid white;
+    background-color: rgba(155, 155, 9, 0.514);
+}
+
+.BC{
+    display: inline;
+}

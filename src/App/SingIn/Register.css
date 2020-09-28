@@ -1,0 +1,51 @@
+.Register{
+    height: 60px;
+    padding: 5px;
+    border: 35px solid transparent;
+    border-image: url(../imgstyle/Images/human-borders.png) 35 round;
+    background-color: rgba(0, 0, 0, 0.877);
+    width: 30%;
+    margin: auto;
+    height: 450px;
+    text-align: center;
+}
+.NameStr{
+    color: yellow;
+    width: 200px;
+    margin: auto;
+}
+.NameStr>input{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 30px;
+    max-height: 30px;
+    font-size: 30px;
+}
+.PasswordStr{
+    color: yellow;
+    width: 200px;
+    margin: auto;
+}
+.PasswordStr>input{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 30px;
+    max-height: 30px;
+    font-size: 30px;
+}
+.AddB1{
+    font-family: WarcraftFont;
+    width: 237px;
+    background-image: url(../imgstyle/Images/red-button.png);
+    height: 60px;
+    background-size: cover;
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+    margin: auto;
+    margin-top: 40px;
+}
+.AddB1:hover{
+    background-image: url(../imgstyle/Images/green-button.png);
+
+}

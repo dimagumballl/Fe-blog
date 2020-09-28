@@ -1,0 +1,30 @@
+@font-face {
+    font-family: WarcraftFont;
+    src: url(./imgstyle/Fonts/LifeCraft_Font_0.ttf)
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("./imgstyle/Fons/fons-ork.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+button{
+    color: yellow;
+    background-color: rgb(36, 33, 36);
+    height: 30px;
+    background-size: cover;
+    display: inline-block;
+    text-align: center;
+}
+.NanDis{
+    display: none;
+}
+.downBar{
+    display: inline-block;
+    border-top: 1px solid yellow;
+    width: 100%;
+}

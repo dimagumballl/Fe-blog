@@ -1,0 +1,20 @@
+.Chat{
+ 
+    padding: 5px;
+    border: 35px solid transparent;
+    border-image: url(../../../imgstyle/Images/human-borders.png) 35 round;
+    width: 45%;
+    background-color: rgba(155, 155, 9, 0.514);
+    display: inline-block;
+    margin-left: 10%;
+}
+.Comment{
+    width: 100%;
+    height: 150px;
+    
+}
+.Comment>textarea{
+    width: 100%;
+    height: 120px;
+    font-size: 20px;
+}

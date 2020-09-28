@@ -1,0 +1,68 @@
+.Body{
+    border: 35px solid transparent;
+    border-image: url(../imgstyle/Images/orb-borders.png) 35 round;
+}
+.Title{
+    text-align: center;
+    font-size: 60px;
+    font-family: WarcraftFont;
+    color:yellow;
+    margin-bottom: 100px;
+}
+.dis{
+    width: 80%;
+    display: inline-block;
+    border: 35px solid transparent;
+    border-image: url(../imgstyle/Images/human-borders.png) 35 round;
+    color: white;
+    background-color: rgba(155, 155, 9, 0.514);
+    margin-left: 10%;
+    
+}
+.NewPost{
+    border: 35px solid transparent;
+    border-image: url(../imgstyle/Images/human-borders.png) 35 round;
+    width: 80%;
+    margin: auto;
+    background-color: black;
+}
+.NewTitle{
+    width: 20%;
+    display: inline-block;
+    font-size: 30px;
+    color: yellow;
+}
+.NewTitle>textarea{
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 55px;
+    max-height: 55px;
+    font-size: 30px;
+}
+.NewText{
+    width: 100%;
+    
+}
+.NewText>textarea{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 500px;
+    max-height: 500px;
+    font-size: 30px;
+}
+.AddB{
+    font-family: WarcraftFont;
+    width: 237px;
+    background-image: url(../imgstyle/Images/red-button.png);
+    height: 60px;
+    background-size: cover;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 40px;
+    float: right;
+}
+.AddB:hover{
+    background-image: url(../imgstyle/Images/green-button.png);
+
+}
